@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+  
+}
+
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url(./images/arkaplan.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+ 
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+ 
+}
+
+p {
+  font-size: 10px;
+  color: #fff;
+  line-height: 16px;
+}
+
+.btn {
+  padding: 12px 28px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid red;
+  text-decoration: none;
+  transition: ease 0.5s;
+}
+
+.btn:hover {
+  background-color: #3810260c;
+  color: #fff;
+  border-color: #fff;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: ease 0.5s;
+}
+
+nav ul li a:hover {
+  color: #be0202;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  height: 88%;
+}
+
+.col {
+  flex-basis: 50%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+h1 {
+  color: #fa0404;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.desc {
+  font-size: 16px;
+  text-align: center;
+  color: rgb(5, 190, 190);
+}
+
+.cards {
+
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px 25px;
+  cursor: pointer;
+  border: 1px solid red;
+  position: relative;
+  margin: 15px 15px;
+  transition: ease 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: #fff;
+}
+
+.card .card-head {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 6px;
+  padding: 6px;
+}
+.card .card-head:hover{
+  background-color: #3810260c;
+  border: solid 0.5px;
+  border-color: #fff;
+}
+.card .card-bottom {
+  position: absolute;
+  bottom: 26px;
+}
+
+.card.card-1 {
+  background-image: url(./images/togg.jpg);
+ 
+}
+
+.card.card-2 {
+  background-image: url(./images/audi.jpg);
+ 
+  
+}
+
+.card.card-3 {
+  background-image: url(./images/bmw.jpg);
+ 
+}
+
+.card.card-4 {
+  background-image: url(./images/mercedess.png);
+
+}
+.card.card-5 {
+  background-image: url(./images/volvo.jpg);
+  
+}
+.card.card-6 {
+  background-image: url(./images/wolkswagen.png);
+ 
+}
+
